@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  font-family: 'open sans',sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+}
+.quizz-app{
+    width: 800px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0  0 10px black;
+    border-radius: 4px;
+}
+.question-section{
+    text-align: center;
+}
+.question-section h2{
+    margin: 10px 0;
+    font-weight: 600;
+    color: darkorchid;
+}
+.question-section p{
+    font-weight: 500;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+button{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: darkolivegreen;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    filter: brightness(1.2);
+}
+.timer{
+    margin-top: 20px;
+    font-size: 18px;
+    color: grey;
+}
+.timer span{
+    font-weight: 800;
+}
+.score-section{
+    text-align: center;
+}
+.score-section h2{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.score-section button{
+    background-color: darkorchid;
+}
