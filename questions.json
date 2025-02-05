@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "question": "What hook is used for state management in React?",
+        "options": ["useEffect", "useState", "useRef", "useContext"],
+        "correctoption": "useState"
+    },
+    {
+        "id": 2,
+        "question": "Which keyword is used to create a component in React?",
+        "options": ["class", "function", "component", "render"],
+        "correctoption": "function"
+    },
+    {
+        "id": 3,
+        "question": "What method is used to update state in a class component?",
+        "options": ["setState", "updateState", "changeState", "modifyState"],
+        "correctoption": "setState"
+    },
+    {
+        "id": 4,
+        "question": "Which React hook is used for side effects?",
+        "options": ["useReducer", "useEffect", "useMemo", "useState"],
+        "correctoption": "useEffect"
+    }
+]
